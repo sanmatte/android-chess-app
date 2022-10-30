@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#cafcea</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0015ff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBoardDark">#0BCDF4</color>
+    <color name="colorBoardLight">#B9FFFF</color>
+    <color name="colorDanger">#ff9500</color>
+    <color name="colorPositionAvailable">#ffd45e</color>
+    <color name="colorSelected">#ffbb00</color>
+    <color name="colorKingInDanger">#ff0000</color>
+    <color name="backgroundBoard">#FFEB88</color>
+    <color name="backgroundDarkYellow">#ffd45e</color>
+    <color name="choose">#898989</color>
+    <color name="checkMateLight">#c9c9c9</color>
+    <color name="checkMateDark">#919191</color>
+
+    <color name="water">#07e0a3</color>
+    <color name="waterColorDanger">#059985</color>
+    <color name="waterColorPositionAvailable">#76EA7C</color>
+    <color name="waterColorSelected">#03ab51</color>
+    <color name="backGroundWater">#dbffd6</color>
+    <color name="statusBarWater">#f7eed7</color>
+
+    <color name="classicLight">#fae8c3</color>
+    <color name="classicDark">#bf916d</color>
+    <color name="ClassicColorDanger">#e36607</color>
+    <color name="ClassicColorPositionAvailable">#fcbc8b</color>
+    <color name="ClassiccolorSelected">#f59d5b</color>
+    <color name="backGroundClassic">#FFF1D9</color>
+    <color name="statusBarClassic">#e0c584</color>
+
+    <color name="redDark">#e3524d</color>
+    <color name="redLight">#fce6d4</color>
+    <color name="RedColorDanger">#ab1f03</color>
+    <color name="RedColorPositionAvailable">#faaf89</color>
+    <color name="RedColorSelected">#f0763a</color>
+    <color name="backGroundRed">#fcd7ae</color>
+    <color name="statusBarRed">#e8d8d9</color>
+
+</resources>

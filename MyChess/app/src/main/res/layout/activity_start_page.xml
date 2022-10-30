@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundBoard"
+    android:id="@+id/activity_start_page"
+    tools:context=".StartPage">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="303dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/chesstext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameC"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Matteo Sanna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <!--<ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="342dp"
+        android:layout_height="8dp"
+        android:layout_below="@+id/loading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="308dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="@color/colorBoardLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameC" />
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:text="loading..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

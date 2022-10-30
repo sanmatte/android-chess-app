@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyChess</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    Failed to compile values file.
+    <string name="psText">This is the board starting position… \n White always starts, it is good to take advantage, so it is always better to win the center to have more control over the board. \n The most common position here is pawn in e4 (let\'s understand what it means)… \n Pawns always move one forward, but as you can see, since pawns has no moved yet they can move two forward too.\n So how do pawns take another piece?</string>
+    <string name="peText">If you said forward, well you\'re wrong.\n Pawns take diagonally.</string>
+    <string name="knight">Then this is the Knight, it moves as a L in every direction, it also takes in this way…</string>
+    <string name="bishop">Here is the Bishop, it moves in every diagonally square until a piece blocks his way…</string>
+    <string name="rook">While the Bishop moves diagonally the Rook moves Vertically and Horizontally, again until a piece blocks his way…</string>
+    <string name="queen">Put Bishop and Rook together and you get a QUEEN,\n very simple right?… \n But remember the queen is the most important piece on the board (after the king of course), use it very carefully and never blunder it!</string>
+    <string name="king">Finally before seeing some tactics, THE king, well you just need to know that it moves in every direction by just one square. \n It also have a very important SPECIAL move, Can you guess which?…</string>
+    <string name="castle">It\'s castling, in short words when the king and the rook haven\'t moved yet, the king is not in check and there aren\'t pieces between the king and the rook, they can change their position as in the shown board</string>
+    <string name="check">You are seeing now a check on white king position (the black bishop is threatening the white king), \n but can you spot the best move for white?</string>
+    <string name="check2">Yeah, you see?! \n White Knight takes the black bishop, removing the threat and checking the black king, forcing him to move.</string>
+</resources>

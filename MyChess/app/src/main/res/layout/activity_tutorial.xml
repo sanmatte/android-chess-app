@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundBoard"
+    android:id="@+id/activity_tutorial"
+    tools:context=".Tutorial">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/welcomeLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleX="0"
+                android:scaleY="0">
+
+                <TextView
+                    android:id="@+id/welcome"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="50dp"
+                    android:text='WELCOME TO THE
+                    TUTORIAL'
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="45sp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/secondLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:scaleX="0"
+                android:scaleY="0">
+
+                <TextView
+                    android:id="@+id/exp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:text='You will see some different positions on the board and you will have to analyze them to understand theme or to find the best strategy.'
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/thirdLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:scaleX="0"
+                android:scaleY="0">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
+                    android:paddingHorizontal="20dp"
+                    android:paddingTop="30dp"
+                    android:text="Take a TOUR and understand the FUNDAMENTALS... \n \n ...scroll down to start..."
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lastLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:scaleX="0"
+                android:scaleY="0">
+
+                <ImageView
+                    android:id="@+id/pawnStart"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"
+                    android:layout_height="450dp"
+                    android:src="@drawable/pawn_start" />
+
+                <TextView
+                    android:id="@+id/psText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/psText"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/pawnTake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/pawn_eat"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/pTake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/peText"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/knightImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/knight"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/knight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/knight"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/bishopImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/bishop"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/bishop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/bishop"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/rookImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/rook"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/rook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/rook"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/queenImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/queen"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/queen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/queen"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/kingImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/king"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/king"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/king"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/castle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/castle"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/castling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/castle"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/check"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/wcheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/check"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:id="@+id/check2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:src="@drawable/check2"
+                    android:paddingTop="50dp"
+                    android:paddingHorizontal="30dp"/>
+
+                <TextView
+                    android:id="@+id/bcheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:paddingHorizontal="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/check2"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
