@@ -1,5 +1,5 @@
 # android-chess-app
-`Please Note: The code is still in revision status, it will be commented and changed based on my considerations. New versions of the app will be released as well. Not everything is implemented in the most efficient way, but it will be ;).` <br>
+`Please Note: The code is still in revision status, it will be commented and changed based on my considerations. New versions of the app will be released as well. Not everything is implemented in the most efficient way.` <br>
 <br>
 1vs1 Android Chess Application. <br>
 - Fully Animated
